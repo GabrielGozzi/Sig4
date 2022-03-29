@@ -69,6 +69,8 @@ mensagem de dados inválidos |
 ##### Elaboração - projeto
 >
 As classes conceituais relacionadas aos requisitos para esta interação foram identificadas no modelo de domínio.
+![f1_modelo_de_dominio](https://user-images.githubusercontent.com/84863621/160609648-30328c35-1e94-41c9-a01e-8586dd1095fd.jpg)
+
 Considerando requisitos de negócio que envolvem a utilização do sistema flexível para os tipos de dispositivos de entrada (desktop, dispositivos moveis ou totens) a
 arquitetura segue o estilo Hexagonal que isola o núcleo da aplicação (camada interna) da camada externa que é tudo que se comunica com a aplicação, banco de dados,
 serviços de e-mail e os controllers (RICHARDSON, 2018, p.38). A parte externa pode ser modificada de acordo com a necessidade melhorando a testabilidade do software
